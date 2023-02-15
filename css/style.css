@@ -2,11 +2,13 @@
     width: 150px;
     height: 150px;
     position: absolute;
-    right: 10px;
-    bottom: 0px;
+    right: 15%;
+    top: 95%;
 }
 
 header {
+    position: -webkit-sticky;
+    position: sticky;
     background-color: brown;
     position: fixed;
     top: 0px;
@@ -18,14 +20,43 @@ header {
     text-align: center;
 }
 
+.section {
+    margin-left: 25%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    padding-bottom: 50%;
+    background-color: lightgrey;
+}
+
+.sec_text {
+    margin-top: 0%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: large;
+}
+
 .unlist {
     margin-left: -115%;
+    margin-top: 0%;
 }
 
 .listProp {
-    margin-top: 60px;
-    margin-left: 35%;
+    background-color: darkred;
+    text-align: center;
+    padding-bottom: 30%;
+    padding-top: 30%;
     list-style-type: none;
+    border: 1.5px solid;
+    border-bottom: .75px;
+    border-bottom-color: black;
+    cursor: pointer;
+    font-family: "Roboto slab", sans-serif;
+}
+
+.listProp:hover{
+    background-color: rgb(108, 0, 0);
 }
 
 .joemumah{
@@ -35,25 +66,18 @@ header {
     font-size: larger;
 }
 
-.aside {
-    background-color: darkred;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    padding-left: 66px;
+aside {
+    position: fixed;
+    float: left;
+    top: 0%;
+    left: 5%;
 }
 
 .bodyclass {
     background-color: gray;
 }
 
-.Portfolio {
-    padding-left: 15%;
-    padding-top: 10%;
-}
-
-hr {
-    margin-right: 0;
-    margin-top: 25%;
+.footer {
+    bottom: 0%;
+    text-align: center;
 }
