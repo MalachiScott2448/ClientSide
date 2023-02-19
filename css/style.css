@@ -95,11 +95,11 @@ aside {
 }
 
 .aside {
-    display: none;
+    display: block;
 }
 
 .aside.collapsed{
-    display: block;
+    display: none;
 }
 
 .bodyclass {
