@@ -36,12 +36,10 @@ function quoteGenerator() {
    let quoteCount = quotes.length;
    
    // Generate a random integer to select a quote
-   let randomQuotes = randomInt(0, quoteCount);
+   let randomQuote = randomInt(0, quoteCount - 1);
    
-   // BREAKPOINT HERE
    // Retrieve a randomly-selected quote
-   let quote = quotes[randomQuotes];
-   
+   let quote = quotes[randomQuote];
    
    // Display the random quote
    document.getElementsByTagName("blockquote")[0].innerHTML = quote;
@@ -53,3 +51,5 @@ function randomInt(lowest, highest) {
    let size = highest - lowest + 1;
    return Math.floor(lowest + size*Math.random());
 }
+
+
