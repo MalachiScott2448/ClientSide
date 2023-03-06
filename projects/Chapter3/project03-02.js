@@ -10,7 +10,7 @@
 */
 
 let htmlCode = "";
-let captions = new Array(14);
+let captions = new Array();
 captions[0]="International Space Station fourth expansion [2009]";
 captions[1]="Assembling the International Space Station [1998]";
 captions[2]="The Atlantis docks with the ISS [2001]"; 
@@ -27,7 +27,7 @@ captions[12]="The International Space Station third expansion [2007]";
 captions[13]="The ISS over the Ionian Sea [2007]";
 
 for (let i = 0; i < captions.length; i++) {
-       htmlCode += "<figure>" +
+      htmlCode += "<figure>" +
       "<img alt=' ' src='images/slide" + i + ".jpg' />" +
       "<figcaption>" + captions[i] + "</figcaption>" +
       "</figure>";
