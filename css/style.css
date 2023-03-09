@@ -110,6 +110,24 @@ aside {
     text-align: center;
 }
 
+/* Media: medium screen */
 @media screen and (min-width: 630px) {
-    
+    .aside{
+        display: block;
+    }
+
+    #aside-toggle {
+        display: none;
+    }  
+}
+
+/* Media: smaller screen */
+@media screen and (min-width: 481px) {
+    .aside{
+        display: block;
+    }
+
+    #aside-toggle {
+        display: block;
+    } 
 }
