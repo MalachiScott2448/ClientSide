@@ -111,23 +111,27 @@ aside {
 }
 
 /* Media: medium screen */
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 630px) and (max-width: 2000px) {
     .aside{
         display: block;
     }
 
-    #aside-toggle {
+    #side-toggle {
         display: none;
     }  
 }
 
 /* Media: smaller screen */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) and (max-width: 629px) {
     .aside{
-        display: block;
+        display: none;
     }
 
-    #aside-toggle {
+    #side-toggle {
         display: block;
     } 
+
+    .aside.collapsed{
+        display: block;
+    }
 }
