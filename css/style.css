@@ -28,6 +28,10 @@
     margin-left: 10%;
 }
 
+#no_text {
+    display: none;
+}
+
 .intro {
     text-align: center;
 }
