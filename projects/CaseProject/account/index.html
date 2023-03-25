@@ -47,9 +47,12 @@
       <p class="sec_text">Just to be sure, we need to verify a few things before we continue.</p>
       &nbsp;
       <div id="info">
-         <p class="sec_text">Browser &#9475;<script>console.log(navigator.appName)</script></p>
-         <p class="sec_text">Browser version &#9475;<script>console.log(navigator.appVersion)</script></p>
-         <p class="sec_text">Location &#9475;<script>if (navigator.geolocation) { console.log(navigator.geolocation); }</script></p>
+         <p class="sec_text">Browser name: <span id="browser-name"></span>
+             <script>var browserName = navigator.appName;
+                     var browserNameElement = document.getElementById("browser-name");
+                     browserNameElement.innerHTML = browserName;</script></p>
+         <p class="sec_text">Browser version &#9475;<script>document.log(navigator.appVersion)</script></p>
+         <p class="sec_text">Location &#9475;<script>if (navigator.geolocation) { document.log(navigator.geolocation); }</script></p>
        </div>
          <p class="sec_text">*We recommend you turn off any VPN.</p>
    </div>
