@@ -48,10 +48,17 @@
       &nbsp;
       <div id="info">
          <p class="sec_text">Browser name: <span id="browser-name"></span>
-             <script>var browserName = navigator.appName;
-                     var browserNameElement = document.getElementById("browser-name");
+             <script>
+                     int browserName = navigator.appName;
+                     int browserNameElement = document.getElementById("browser-name");
                      browserNameElement.innerHTML = browserName;</script></p>
-         <p class="sec_text">Browser version &#9475;<script>document.log(navigator.appVersion)</script></p>
+          
+          <p class="sec_text">Browser version: <span id="browser-version"></span>
+              <script>
+                     int brwoserVersion = navigator.appVersion;
+                     int browserVersionElement = document.getElementById("browser-version")
+                     browserVersionElement.innerHTML = browerVersion;</script></p>
+          
          <p class="sec_text">Location &#9475;<script>if (navigator.geolocation) { document.log(navigator.geolocation); }</script></p>
        </div>
          <p class="sec_text">*We recommend you turn off any VPN.</p>
