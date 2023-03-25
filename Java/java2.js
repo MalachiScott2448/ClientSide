@@ -22,7 +22,7 @@ sidebarToggle.addEventListener("click", function(){
 let noButton = document.getElementById("no_text");
 noButton.addEventListener("click", function(){
   let result = document.querySelector("#no_text");
-  result.toggle("collapsed");
+  result.classList.toggle("collapsed");
 });
 
 // Allow pricing for future payments
