@@ -49,7 +49,7 @@
       <div id="info">
          <p class="sec_text">Browser &#9475;<script>console.log(navigator.appName)</script></p>
          <p class="sec_text">Browser version &#9475;<script>console.log(navigator.appVersion)</script></p>
-         <p class="sec_text">Location &#9475;<script>console.log(navigator.geolocation)</script></p>
+         <p class="sec_text">Location &#9475;<script>if (navigator.geolocation) { console.log(navigator.geolocation); }</script></p>
        </div>
          <p class="sec_text">*We recommend you turn off any VPN.</p>
    </div>
