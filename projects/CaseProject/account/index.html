@@ -59,7 +59,11 @@
                      var browserVersionElement = document.getElementById("browser-version")
                      browserVersionElement.innerHTML = browserVersion;</script></p>
           
-         <p class="sec_text">Location &#9475;<script>if (navigator.geolocation) { document.log(navigator.geolocation); }</script></p>
+          <p class="sec_text">Location: <span id="locations"></span>
+              <script>
+                  var location = navigator.geolocation;
+                  var loactionElement = document.getElementById("locations")
+                  locationElement.innerHTML = location;</script></p>
        </div>
          <p class="sec_text">*We recommend you turn off any VPN.</p>
    </div>
