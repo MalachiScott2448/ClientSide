@@ -130,8 +130,15 @@ aside {
 
     #side-toggle {
         display: none;
-    }  
-}
+    }
+    
+    #no_text {
+        display: none;
+    }
+    
+    #no_text.collapsed {
+        display: block;
+    }
 
 /* Media: smaller screen */
 @media screen and (min-width: 480px) and (max-width: 629px) {
