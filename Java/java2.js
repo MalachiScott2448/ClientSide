@@ -23,6 +23,7 @@ let noButton = document.getElementById("no_text");
 noButton.addEventListener("click", function(){
   let result = document.querySelector("#no_text");
   result.toggle("collapsed");
+});
 
 // Allow pricing for future payments
 function formatPrice(value) {
