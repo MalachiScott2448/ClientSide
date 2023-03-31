@@ -6,8 +6,13 @@
     top: 95%;
 }
 
+.abolLogo:hover {
+    width: 175px;
+    height: 175px;
+    transition: all 0.3s ease-out;
+}
+
 .header {
-    position: -webkit-sticky;
     position: sticky;
     background-color: brown;
     position: fixed;
@@ -21,15 +26,6 @@
 #side-toggle {
     text-align: center;
     margin-left: 48%;
-}
-
-.button1 {
-    text-align: center;
-    margin-left: 10%;
-}
-
-#no_text {
-    display: none;
 }
 
 .intro {
@@ -52,6 +48,25 @@
     padding-left: 5%;
     padding-right: 5%;
     font-size: large;
+}
+
+#self-pic {
+    padding: 2%;
+    width: 350px;
+    height: 535px;
+}
+
+.figure {
+    display: flex;
+    align-items: center;
+}
+
+#figcap {
+    font-size: 175%;
+    font-style: italic;
+    text-align: right;
+    text-align: center;
+    margin: 100px auto auto 30px;
 }
 
 .unlist {
@@ -86,6 +101,7 @@
 
 .listProp:hover{
     background-color: rgb(108, 0, 0);
+    transition: all 0.3s ease-out;
 }
 
 .joemumah{
@@ -120,25 +136,19 @@ aside {
     padding: 5%;
     background-color: darkred;
     box-shadow: inset 0px 0px 12px 4px rgb(27, 0, 0);
+    margin-bottom: 0%;
 }
 
 /* Media: medium screen */
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 630px) and (max-width: 2000px) {
     .aside{
         display: block;
     }
 
     #side-toggle {
         display: none;
-    }
-    
-    #no_text {
-        display: none;
-    }
-    
-    #no_text.collapsed {
-        display: block;
-    }
+    }  
+}
 
 /* Media: smaller screen */
 @media screen and (min-width: 480px) and (max-width: 629px) {
