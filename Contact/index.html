@@ -42,10 +42,36 @@
     </aside>
 
     <section class="section">
-        <div class="container">
-            <p class="sec_text">Leave your comment(s) here</p>
-            <textarea id="comment" rows="" cols=""></textarea>
-        </div>
+        
+        <h2 id="plea-info">Please leave your information below</h2>
+        <form id="form1">
+        
+            <label>Name: <input name="Name" id="nameBox" type="text"></label><br><br>
+         
+            <label>Email: <input name="Email" id="emailBox" type="text"></label> <br><br>
+          
+          <label>Phone Number
+           <input name="phoneNumber" id="phoneBox" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"
+                  required placeholder="(###) ###-####"></label>
+    
+                <br><br>
+          
+                
+                    <select id="Reason" required>
+                        <option>Select Reason</option>
+                        <option>Requesting Help</option>
+                        <option>Requesting to Help</option>
+                        <option>Purchase issues</option>
+                        <option>Questions</option>
+                        <option>Other</option>
+                    </select><br><br>
+       
+          <p>Other comments:</p>
+         <textarea id="textArea1" name="textArea1" placeholder="" style="height:150px; width:300px;" required></textarea>
+         <br><br>
+         
+         <input type="submit" value="Submit">
+        </form>
     </section>
     
     <footer class="footer">
