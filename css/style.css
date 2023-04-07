@@ -60,6 +60,16 @@
     height: 535px;
 }
 
+#form1 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#plea-info {
+    text-align: center;
+    padding-top: 5%;
+}
+
 .figure {
     display: flex;
     align-items: center;
