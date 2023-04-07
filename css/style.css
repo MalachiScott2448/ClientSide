@@ -7,8 +7,7 @@
 }
 
 .abolLogo:hover {
-    width: 175px;
-    height: 175px;
+    transform: scale(1.1);
     transition: all 0.3s ease-out;
 }
 
