@@ -23,3 +23,20 @@ sidebarToggle.addEventListener("click", function(){
     let sidebar = document.querySelector(".aside");
     sidebar.classList.toggle("collapsed");
 });
+
+const lastVisit = localStorage.getItem('lastVisit');
+
+const articleLinks = document.querySelectorAll('a.article');
+
+articleLinks.forEach(link => {
+  const publishTime = new Date(link.dataset.publishTime);
+
+  if (!lastVisit || publishTime > new Date(lastVisit)) {
+    const newLabel = document.createElement('span');
+    newLabel.innerText = 'New';
+    newLabel.classList.add('new-label');
+    link.appendChild(newLabel);
+  }
+});
+
+localStorage.setItem('lastVisit', new Date().toISOString());
