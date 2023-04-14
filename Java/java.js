@@ -24,19 +24,21 @@ sidebarToggle.addEventListener("click", function(){
     sidebar.classList.toggle("collapsed");
 });
 
-const lastVisit = localStorage.getItem('lastVisit');
+const now = new Date();
 
-const articleLinks = document.querySelectorAll('a.article');
+const lastVisit = localStorage.getItem("sbloggerVisit");
 
-articleLinks.forEach(link => {
-  const publishTime = new Date(link.dataset.publishTime);
+if (lastVisit) {
+  const lastVisitDate = new Date(lastVisit);
+  
+  const articleLinks = document.querySelectorAll(".article-link");
+  articleLinks.forEach(link => {
+    const publicationDate = new Date(link.dataset.publicationDate);
+    
+    if (publicationDate > lastVisitDate) {
+      link.innerText += " (New)";
+    }
+  });
+}
 
-  if (!lastVisit || publishTime > new Date(lastVisit)) {
-    const newLabel = document.createElement('span');
-    newLabel.innerText = 'New';
-    newLabel.classList.add('new-label');
-    link.appendChild(newLabel);
-  }
-});
-
-localStorage.setItem('lastVisit', new Date().toISOString());
+localStorage.setItem("sbloggerVisit", now.toString());
