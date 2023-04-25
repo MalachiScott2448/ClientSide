@@ -1,0 +1,42 @@
+/* 
+    Student Name: Malachi Scott
+    File name: index.html
+    Date: 04/23/2023 
+*/
+ 
+li {
+    list-style-type: none;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-size: 125%;
+    color: white;
+    display: inline-block;
+}
+
+#logo {
+    width: 6%;
+}
+
+.hero {
+    background-image: url(../images/Background_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    width: 100%;
+}
+
+.sec1 {
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 0 10px rgba(49, 49, 49, 0.1), 0 0 5px rgba(255, 0, 0, 0.5);
+    color: white;
+    padding-bottom: 10%;
+    position: relative;
+    margin-top: 50%;
+}
+
+/* #khoshi {
+    padding: 15%;
+} */
