@@ -19,6 +19,15 @@ li {
     width: 6%;
 }
 
+#logo2 {
+    width: 20%;
+}
+
+#logo3 {
+    width: 12%;
+    padding-top: 8%;
+}
+
 .hero {
     background-image: url(../images/Background_3.jpg);
     background-size: cover;
@@ -35,8 +44,28 @@ li {
     padding-bottom: 10%;
     position: relative;
     margin-top: 50%;
+    margin-bottom: 10%;
 }
 
-/* #khoshi {
-    padding: 15%;
-} */
+.sec2 {
+    background-color: rgb(83, 83, 83);
+    box-shadow: 0 0 10px rgba(49, 49, 49, 0.1), 0 0 5px rgba(255, 0, 0, 0.5);
+    color: white;
+    padding-bottom: 10%;
+    position: relative;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+header {
+    background-image: linear-gradient(rgb(0,  0,0,0.5),
+    rgba(46, 1, 1, 0.5));
+    padding-bottom: 1%;
+}
+
+.mFooter {
+    background-image: linear-gradient(rgb(0,  0,0,0.5),
+    rgba(46, 1, 1, 0.5));
+    color: white;
+    padding-top: 1%;
+}
