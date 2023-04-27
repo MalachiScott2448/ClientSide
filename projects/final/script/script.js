@@ -4,6 +4,6 @@
     Date: 04/23/2023
 */
 
-$(document).ready(function(){
-    $('.hero').height($(window).height());
-});
+// $(document).ready(function(){
+//     $('.hero').height($(window).height());
+// });
