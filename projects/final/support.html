@@ -47,13 +47,30 @@
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12">
                 <section class="section justify-content-center sec2">
                     <h3 class="text-center">Support</h3>
+                    <hr>
                     &nbsp;
-                    <p class="text-center">Thank you for your input. One of our specialist will view your message and contact you as soon as possible!</p>
+                    <p class="text-center">This is the support page. If you need any assistance, choose one or more of the following inquiries that you may be having:</p>
                     &nbsp;
-                    <a href="index.html"><button class="button btn-lg bg-dark text-white">Back Home</button></a>
+                    <section class="section">
+                    <form class="text-center" action="submit.html" method="POST">
+                        <label for="name">Name:</label>
+                        <input class="rounded" type="text" id="name" name="name" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input class="rounded" type="email" id="email" name="email" required>
+                        <br>
+                        <label for="subject">Subject:</label>
+                        <input class="rounded" type="text" id="subject" name="subject" required>
+                        <br>
+                        <label for="message">Message:</label>
+                        <textarea class="rounded" id="message" name="message" required></textarea>
+                        <br>
+                        <input class="rounded" type="submit" value="Submit">
+                      </form>
+                    </section>
                 </section>
             </div>
         </div>
