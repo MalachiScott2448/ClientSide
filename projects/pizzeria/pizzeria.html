@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Domonot's Pizza</title>
+</head>
+<body>
+    <header>
+        <h1 id="head">Domonot's Pizzeria</h1>
+
+        <nav>
+            <ul>
+                <a class="navLink" href="#"><li>Locations</li></a>
+                <a class="navLink" href="#"><li>Contact Us</li></a>
+                <a class="navLink" href="#"><li>Special Pizzas</li></a>
+                <a class="navLink" href="#"><li>Other Restaurants</li></a>
+            </ul>
+        </nav>
+
+        <div id="search">
+            <form type="search">
+                <label for="search">Search Locations</label>
+                <input type="search" name="search" id="search" value="" placeholder="Search">
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <form id="pizzaForm">
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2>Build your pizza here:</h2>
+                                </td> 
+                            </tr> 
+                            <tr>                      
+                                <td class="tdPizza">
+                                    <div class="pizzaInfo">
+                                        <label for="item-select">Choose your Crust:</label>
+                                        <select name="item" id="item-select">
+                                            <option value="select">-select-</option>
+                                            <option value="item1">Thick</option>
+                                            <option value="item2">Thin</option>
+                                            <option value="item3">Regular</option>
+                                        </select>
+                                    </div>
+                                </td>
+                                <td class="tdPizza">
+                                    <div class="pizzaInfo">
+                                        <label for="item-select">Choose your Sauce:</label>
+                                        <select name="item" id="item-select">
+                                            <option value="select">-select-</option>
+                                            <option value="item1">Marinara</option>
+                                            <option value="item2">Hardy Marinara</option>
+                                            <option value="item3">No Sauce</option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                                    
+                            <tr>
+                                <td class="tdPizza">
+                                    <div class="pizzaInfo">
+                                        <label>Toppings?</label><br><br>
+
+                                        <input type="checkbox" name="item" value="item1" id="item1">
+                                        <label for="item1">Cheese</label><br>
+                                                
+                                        <input type="checkbox" name="item" value="item2" id="item2">
+                                        <label for="item2">Peperoni</label><br>
+                                                
+                                        <input type="checkbox" name="item" value="item3" id="item3">
+                                        <label for="item3">Sausage</label><br>
+
+                                        <input type="checkbox" name="item" value="item4" id="item4">
+                                        <label for="item3">Shrimp</label><br>
+
+                                        <input type="checkbox" name="item" value="item5" id="item5">
+                                        <label for="item3">Pineapple</label><br>
+
+                                        <input type="checkbox" name="item" value="item6" id="item6">
+                                        <label for="item3">Bacon</label><br>
+
+                                        <input type="checkbox" name="item" value="item7" id="item7">
+                                        <label for="item3">Pepper</label><br>
+
+                                        <input type="checkbox" name="item" value="item8" id="item8">
+                                        <label for="item3">Chicken</label><br>
+
+                                        <input type="checkbox" name="item" value="item9" id="item9">
+                                        <label for="item3">Steak</label><br>
+
+                                        <input type="checkbox" name="item" value="item10" id="item10">
+                                        <label for="item3">Mushroom</label>
+                                    </div>
+                                </td>                                                   
+                                <td class="tdPizza">
+                                    <div class="pizzaSend">
+                                        <a href="dessert.html"><button type="button" id="formButton">Send it!</button></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <td>
+                        <img class="pizzaCrust" id="pizzaImg1 pizzaCrust" src="images/crust.png" alt="build your own pizza">
+                        <img class="pizzaImg" id="pizzaImg2" src="images/sauce.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg3" src="images/cheese.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg4" src="images/peperoni.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg5" src="images/shrimp.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg6" src="images/bacon.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg7" src="images/chicken.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg8" src="images/mushroom.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg9" src="images/pepper.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg10" src="images/pinneapple.png" alt="">
+                        <img class="pizzaImg" id="pizzaImg11" src="images/sausage.png" alt="">
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+        <footer>
+
+        </footer>
+    </body>
+    <script src="script/script.js"></script>
+</html>
