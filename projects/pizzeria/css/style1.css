@@ -1,0 +1,82 @@
+header {
+    background-color: red;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+#head {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navLink {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#search {
+    position: sticky;
+    top: 0;
+    float: right;
+}
+
+h2 {
+    background-color: darkred;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+table {
+    padding: 50px;
+    display: inline-block
+}
+
+.tdPizza {
+    border: 3px solid black;
+    padding: 5%;
+}
+
+.pizzaInfo {
+    background-color: darkgray;
+}
+
+.pizzaSend {
+    padding: 5%;
+    margin: 5%;
+}
+
+.pizzaCrust {
+    display: block;
+    position: absolute;
+}
+
+.pizzaImg {
+    display: none;
+    position: absolute;
+}
+
+#sectionsImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSec {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#thanks {
+    font-size: xx-large;
+}
