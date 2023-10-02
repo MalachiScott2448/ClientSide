@@ -1,0 +1,83 @@
+.header {
+    background-color: #26292e;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Butterfly Kids', cursive;
+    font-size: 60px;
+}
+
+.main p {
+    color: gray;
+}
+
+.main span {
+    color: black;
+    font-weight: 500;
+}
+
+.sec-1 {
+    background-color: #e7718b;
+    background: radial-gradient(#ff93ab ,#e7718b);
+    background-position: top center;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sec-1 p {
+    color: #ffffff;
+}
+
+.sec-1 button {
+    background: linear-gradient(#59616d ,#26292e);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.sec-2 {
+    background-color: #f4f4f6;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    border-bottom: solid 5px#e7718b42;
+}
+
+.sec-2 p {
+    color: gray;
+}
+
+.tab img {
+    background-color: #26292e;
+    padding: 25px 10%;
+    margin: 25px 40px;
+    width: 40%;
+    border: solid 8px #bcc4d9;
+}
+
+.divImage {
+    background-color: #ffffff;
+    border-radius: 200px;
+    text-align: center;
+    width: 5.5%;
+    height: 50%;
+}
+
+.divImage img {
+    width: 80%;
+}
+
+.main .container:last-child {
+    padding: 60px 0;
+}
+
+.footer {
+    background-color: #26292e;
+    padding: 40px 0;
+}
+
+.footer-font {
+    color: #ffffff;
+}
